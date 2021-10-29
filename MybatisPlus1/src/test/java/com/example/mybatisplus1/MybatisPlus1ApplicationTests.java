@@ -73,5 +73,6 @@ class MybatisPlus1ApplicationTests {
     @Test
     void contextLoads6() {
         System.out.println("test git");
+        System.out.println("hello git branch");
     }
 }
