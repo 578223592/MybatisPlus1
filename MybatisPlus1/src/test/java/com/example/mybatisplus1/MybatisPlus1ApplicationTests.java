@@ -69,4 +69,9 @@ class MybatisPlus1ApplicationTests {
         List<Employee> list = myService.list(wrapper);
         System.out.println(list);
     }
+
+    @Test
+    void contextLoads6() {
+        System.out.println("test git");
+    }
 }

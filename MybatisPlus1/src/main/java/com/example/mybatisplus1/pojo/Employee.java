@@ -19,10 +19,10 @@ public class Employee implements Serializable {
     private Integer deptId;
     private static final long serialVersionUID = 1L;
 
-    public Employee(Integer id, String name, String gender, String email, Integer deptId) {
+    public Employee(Integer id, String name, String gende, String email, Integer deptId) {
         this.id = id;
         this.name = name;
-        this.gender = gender;
+        this.gender = gende;
         this.email = email;
         this.deptId = deptId;
     }
